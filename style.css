@@ -13,6 +13,9 @@
 	--fw-body-r: 500;
 	--fw-body-b: 700;
 	--fs-body: 14px;
+	--fs-title: 1.5rem;
+	/* text spacing  */
+	--section-spacing: 0.5em;
 }
 
 body {
@@ -21,41 +24,77 @@ body {
 	font-weight: var(--fw-body-r);
 	color: var(--dark-gray-blue);
 	background: var(--cream);
-	
+}
 
 .card-container {
 	background: var(--white);
 	border-radius: 8px;
 	overflow: hidden;
 	max-width: 275px;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .offer-container {
-	padding: 1em;
-
+	padding: 1.2em;
 }
 
 .label {
 	text-transform: uppercase;
 	font-size: 0.6rem;
 	letter-spacing: 0.4em;
-
-    
 }
 
 .title {
 	font-family: var(--ff-title);
 	color: var(--very-dark-blue);
-	font-size: 1.5rem;
+	font-size: var(--fs-title);
 	font-weight: var(--fw-title);
-    line-height: 1em;
-    margin: 0.5em 0 0.5em;
+	line-height: 1em;
+	margin-top: var(--section-spacing);
+	margin-bottom: var(--section-spacing);
+	letter-spacing: 0.02em;
 }
 
-.body-copy{
-    font-size: 0.7rem;
-    line-height: 1.9em;
+.body-copy {
+	font-size: 0.7rem;
+	line-height: 1.8em;
+}
+
+.price-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.main-price {
+	font-family: var(--ff-title);
+	font-size: var(--fs-title);
+	font-weight: var(--fw-title);
+	color: var(--dark-cyan);
+	margin-top: 0.6em;
+	margin-bottom: var(--section-spacing);
+	margin-right: var(--section-spacing);
+}
+
+.old-price {
+	font-size: 0.7em;
+	text-decoration: line-through;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	border-radius: 6px;
+	background: var(--dark-cyan);
+	color: var(--white);
+	padding: 1em;
+	font-size: 0.7em;
+	font-weight: var(--fw-body-b);
+}
+
+.cart-icon {
+	height: 1.2em;
 }
 
 /* 
@@ -87,6 +126,10 @@ containing shopping cart and text as span
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
