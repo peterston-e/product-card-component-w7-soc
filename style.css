@@ -1,1 +1,68 @@
+:root {
+	/* primary */
+	--dark-cyan: hsl(158, 36%, 37%);
+	--cream: hsl(30, 38%, 92%);
+	/* neutral */
+	--very-dark-blue: hsl(212, 21%, 14%);
+	--dark-gray-blue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+	/* font families */
+	--ff-title: "Fraunces", serif;
+	--ff-body: "Montserrat", sans-serif;
+	--fw-title: 700;
+	--fw-body-r: 500;
+	--fw-body-b: 700;
+	--fs-body: 14px;
+}
 
+body {
+	padding: 1rem;
+	font-family: var(--ff-body);
+	font-weight: var(--fw-body-r);
+	color: var(--dark-gray-blue);
+	background: var(--cream);
+}
+
+.card-container {
+	background: var(--white);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.offer-container {
+	padding: 1.2rem;
+}
+
+/* 
+set fonts up as constants 
+import font awesome for icons 
+lay down html 
+. 
+
+how is it going to break into desktop
+flex direction row on card container 
+max width of whatever. 
+
+320px - 375
+px
+media break point mobile 
+card container to have rounded edges
+card container to display flex direction column
+7.5 units for image & 11.5 for bottom
+offer container. 
+span for perfume label 
+h2 for heading 
+p for text with span for chanel
+div for price display flex
+span for main price and span for previous 
+div button displaying flex 
+containing shopping cart and text as span 
+*/
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
