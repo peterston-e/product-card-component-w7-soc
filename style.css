@@ -16,21 +16,46 @@
 }
 
 body {
-	padding: 1rem;
+	padding: 1.5em;
 	font-family: var(--ff-body);
 	font-weight: var(--fw-body-r);
 	color: var(--dark-gray-blue);
 	background: var(--cream);
-}
+	
 
 .card-container {
 	background: var(--white);
 	border-radius: 8px;
 	overflow: hidden;
+	max-width: 275px;
+    margin: 0 auto;
 }
 
 .offer-container {
-	padding: 1.2rem;
+	padding: 1em;
+
+}
+
+.label {
+	text-transform: uppercase;
+	font-size: 0.6rem;
+	letter-spacing: 0.4em;
+
+    
+}
+
+.title {
+	font-family: var(--ff-title);
+	color: var(--very-dark-blue);
+	font-size: 1.5rem;
+	font-weight: var(--fw-title);
+    line-height: 1em;
+    margin: 0.5em 0 0.5em;
+}
+
+.body-copy{
+    font-size: 0.7rem;
+    line-height: 1.9em;
 }
 
 /* 
