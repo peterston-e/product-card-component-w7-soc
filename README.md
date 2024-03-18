@@ -44,7 +44,6 @@ A fun little warm up for the week ahead at School Of Code. I thought I was prett
 
 As it was a fairly simple design I only used flexbox to arrange the button's child elements and the body to position the card its self. For the desktop I turned on the grid to arrange either side of the card each taking up 1 fraction.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
