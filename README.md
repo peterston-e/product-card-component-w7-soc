@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Continued development
 
-A fun little warm up for the week ahead at School Of Code. I thought I was pretty good at CSS but it seems I have become a little rusty. I broke this project by planning how to structure the HTML and decided on what css tools i wanted to use. I opted to start the design with the mobile screen size then adapted for desktop and tablet.
+A fun little warm up for the week ahead at School Of Code. I thought I was pretty good at CSS but it seems I have become a little rusty. I started this project by planning how to structure the HTML and decided on what css tools i wanted to use. I opted to start the design with the mobile screen size then adapted for desktop and tablet.
 
 As it was a fairly simple design I only used flexbox to arrange the button's child elements and the body to position the card its self. For the desktop I turned on the grid to arrange either side of the card each taking up 1 fraction.
 
